@@ -126,7 +126,7 @@ h4 {
         flex-direction: column;
         align-items: center;
         background-color: #66ff66;
-        z-index: -3;
+        z-index: -1;
         transform: translateX(100%);
         transition: all 1s;
     }
@@ -141,6 +141,7 @@ h4 {
   max-width: 1370px;
   position: relative;
   margin: auto;
+  z-index:-3;
 }
 .img {
   width: 100%;
